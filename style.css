@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    margin: 0px auto;
+    /* height: 100%; */
+}
+
+
+/* Header */
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #2FA4FF;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 35px;
+  color: white;
+}
+
+.header li {
+    list-style: none;
+    float: right;
+    padding: 15px;
+    padding-top: 20px;
+}
+  .header-left {
+    float: left;
+  }
+  
+  .header-list {
+    float: right;
+    margin-right: 35px;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    /* transition: all 0.5s;s */
+  }
+  
+  /* .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  } */
+  
+  /* .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  } */
+
+  .btn {
+    padding: 15px 30px;
+    color: white;
+    /* display: inline-block; */
+    /* opacity: 0.8; */
+    /* border-radius: 4px; */
+  }
+
+  .btn:hover {
+    opacity: 1;
+    color:#0E185F;
+  }
+
+/* Main */
+.main {
+  padding: 150px 0 120px 0;
+  background-image: url(img/background_image.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.main h1 {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.contents {
+  padding: 40px 80px;
+  text-align: center;
+  
+}
+
+.who {
+  padding-bottom: 10px;
+}
+
+  /* Product */
+.product {
+    padding:100px 80px;
+}
+
+.product-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 40px 0;
+    height: 170px;
+}
+
+.product-item img {
+    height:50px;
+}
+
+.product-item p {
+    padding: 0 40px;
+    font-size: 13px;
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .product-item {
+        width:50%;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+      .product-item {
+          width: 100%;
+      }
+  }
+
+/* Footer */
